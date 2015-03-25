@@ -1,8 +1,7 @@
 /*global $ */
 (function () {
 	'use strict';
-	var change = null;
-	
+		
 	var date = new Date();
 	if (date.getDate() === 1 && date.getMonth() === 3) {
 		['', '-webkit-', '-moz-'].forEach(function (prefix) {
