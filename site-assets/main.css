@@ -9,7 +9,7 @@ body {
 	font-weight: 300;
 	line-height: 1.5;
 	width: auto;
-	background: #fafafa;
+	background: black;
 	color: #353535;
 	font-smoothing: antialiased;
 }
@@ -113,7 +113,7 @@ header nav a:not(:last-child) {
 }
 
 .whats-new li:before {
-	content: '✔';
+	content: 'âœ”';
 	position: absolute;
 	left: -20px;
 }
@@ -247,7 +247,7 @@ header nav a:not(:last-child) {
 }
 
 .quote p:before {
-	content: '“';
+	content: 'â€œ';
 	font-size: 50px;
 	opacity: .15;
 	position: absolute;
@@ -256,7 +256,7 @@ header nav a:not(:last-child) {
 }
 
 .quote p:after {
-	content: '”';
+	content: 'â€�';
 	font-size: 50px;
 	opacity: .15;
 	position: absolute;
